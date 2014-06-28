@@ -1,0 +1,16 @@
+{
+  "staticPattern": "lib/{file}",
+  "staticDependencies": {
+    "angular": "*",
+    "jquery": "*",
+    "lo-dash": "*",
+    "misc-js": {
+      "url": "git://github.com/chbrown/misc-js.git",
+      "filter": ["angular-plugins.js", "textarea.js"]
+    },
+    "js-yaml": {
+      "url": "git://github.com/nodeca/js-yaml.git",
+      "filter": ["js-yaml.js", "js-yaml.min.js"]
+    }
+  }
+}
